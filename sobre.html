@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Responsivo</title>
+    <title>Design Responsivo - Sobre nós</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">Design Responsivo</a>
-        <nav>
-            <button>Abrir/fechar menu</button>
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre nós</a></li>
-                <li><a href="portifolio.html">Portifolio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+    <header class="cabecalho" >
+        <a href="index.html" class="logo" >Design Responsivo</a>
+        <nav class="menu-principal" >
+            <button class="menu-principal__btn">Abrir/fechar menu</button>
+            <ul class="menu-principal__lista" >
+                <li><a class="menu-principal__item" href="index.html">Home</a></li>
+                <li><a class="menu-principal__item menu-principal__item--atual" href="sobre.html">Sobre nós</a></li>
+                <li><a class="menu-principal__item" href="portifolio.html">Portifolio</a></li>
+                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -34,41 +36,33 @@
             </section>
         </article>
     </main>
-    <footer>
-        <div>
-            <div>
-                <a href="index.html">Design Responsivo</a>
+    <footer class="rodape" >
+        <div class="rodape__linha-1" >
+            <div class="rodape__coluna" >
+                <a href="index.html" class="logo logo--branco" >Design Responsivo</a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ex officia, eaque illum dicta, deleniti expedita earum ratione recusandae dolore incidunt corrupti nam consectetur vitae autem omnis cumque accusamus ipsa.</p>
             </div>
-            <div>
-                <h2>Social</h2>
-                <ul>
-                    <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/victormelodesenvolvedor/" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/vettormelo_/" target="_blank">Instagram</a></li>
-                    <li><a href="https://wa.me/5511955984209" target="_blank">WhatsApp</a></li>
+            <div class="rodape__coluna" >
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape-links" >
+                    <li><a class="rodape__lista-links__item" href="https://github.com/" target="_blank">GitHub</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://www.linkedin.com/in/victormelodesenvolvedor/" target="_blank">LinkedIn</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://www.instagram.com/vettormelo_/" target="_blank">Instagram</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://wa.me/5511955984209" target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+            <div class="rodape__coluna" >
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape-links" >
+                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="rodape__lista-links__item" href="portifolio.html">Portifolio</a></li>
+                    <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
                 </ul>
             </div>
         </div>
-        <div>
-            <h2>Links</h2>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="sobre.html">Sobre nós</a>
-                </li>
-                <li>
-                    <a href="portifolio.html">Portifolio</a>
-                </li>
-                <li>
-                    <a href="contato.html">Contato</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            2022 - Todos os direitos reservados Victor Melo.
+        <div class="rodape__linha-2">
+             &copy; 2022 - Todos os direitos reservados Victor Melo.
         </div>
     </footer>
 </body>
