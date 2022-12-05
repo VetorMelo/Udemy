@@ -7,6 +7,8 @@
     <title>Design Responsivo - Contato</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-pagina.css">
+    <link rel="stylesheet" href="css/style-contato.css">
 </head>
 <body>
     <header class="cabecalho" >
@@ -22,31 +24,31 @@
         </nav>
     </header>
     <main>
-        <header>
-            <h1>Contato</h1>
+        <header class="pagina-cabecalho" >
+            <h1 class="pagina-cabecalho__titulo" >Contato</h1>
         </header>
-        <section>
-            <p>Daqui pra frente, quanto mais, principalmente.. O álcool é o maior inimigo do homem... e o homem que foge de seus inimigos é um covarde!. Pobre só enche a barriga quando morre afogado.. Jesus salva! Que passa para Moisés, que chuta e é gooooolllll.... A vida é uma vai e vem que não tem volta..</p>
-            <form action="#">
-                <div>
-                    <label for="nome">Nome</label><br>
-                    <input id="nome" type="text" name="nome">
+        <section class="pagina-conteudo" >
+            <p class="text-center">Daqui pra frente, quanto mais, principalmente.. O álcool é o maior inimigo do homem... e o homem que foge de seus inimigos é um covarde!. Pobre só enche a barriga quando morre afogado.. Jesus salva! Que passa para Moisés, que chuta e é gooooolllll.... A vida é uma vai e vem que não tem volta..</p>
+            <form action="#" class="formulario">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="nome">Nome</label><br>
+                    <input class="formulario__campo" id="nome" type="text" name="nome">
                 </div>
-                <div>
-                    <label for="email">E-mail</label><br>
-                    <input id="email" type="email" name="E-mail">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="email">E-mail</label><br>
+                    <input class="formulario__campo" id="email" type="email" name="E-mail">
                 </div>
-                <div>
-                    <label for="mensagem">Mensagem</label><br>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="mensagem">Mensagem</label><br>
+                    <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
                 </div>
-                <input type="submit" value="Enviar">
+                <input type="submit" class="formulario__botao" value="Enviar">
             </form>
-            <p>
+            <p class="text-center">
                 Eu sem mim não existo.. Não concordo nem discordo, muito pelo contrário..<br>
                 Um é pouco, dois é bom e três é ímpar.. Thank you for using my words in your work. A Terra é um dos planetas mais conhecidos no mundo..
             </p>
-            <div>
+            <div class="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.5696713325046!2d-45.883736949034684!3d-23.185901053645665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a3ea75d32cf%3A0x7a91329d831c2c18!2sR.%20Cel.%20Moraes%20-%20Centro%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012209-550!5e0!3m2!1spt-BR!2sbr!4v1669556578916!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
