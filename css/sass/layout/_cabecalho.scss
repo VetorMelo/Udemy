@@ -1,4 +1,9 @@
 .cabecalho{
     background: #fff;
     padding: 15px;
+    position: fixed;
+    width: 100%;
+    .logo{
+        float: left;
+    }
 }
